@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html lang="et">
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Minesweeper</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="minesweeper.js"></script>
+		<style>
+		</style>
+	</head>
+	
+<body>
+        <div class="top">
+            <div class="header">
+                <h1>Pink minesweeper</h1>
+            </div>
+            <div class="selection">
+                <h3 id="gameover"></h3>
+				<p id="start">Choose table size and bombs</p>
+				<select id="sizeselect">
+					<option value="6">36 squares</option>
+					<option value="9">81 squares</option>
+					<option value="16">256 squares</option>
+				</select>
+				<input type="number" id="numberinput" value="0">
+                <button class="button" onclick="startGame()">START GAME!</button>
+            </div>
+            <div class="board">
+                 
+                <div id="koht1">
+                    
+                    <script>
+                        
+						
+                    </script>
+                </div>
+            </div>
+            <div class="resultdata">
+                 <button class="button2" onclick="result()">Results</button>
+			     <p id="results"></p>
+                <p id="allresults"></p>
+            </div>
+        </div>
+    </body>
+	
+</html>
+
